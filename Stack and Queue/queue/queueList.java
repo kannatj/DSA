@@ -1,7 +1,6 @@
 package queue;
 //queue implementation using linked list
-public class queue{
-int queue[];
+public class queueList{
 node front, rear;
 
 queue(){
@@ -43,7 +42,7 @@ public void dequeue() {
 
 
 public static void main(String as[]) {
-	queue q = new queue();
+	queueList q = new queueList();
 	q.enqueue(10);
 	q.enqueue(20);
 	q.enqueue(30);
