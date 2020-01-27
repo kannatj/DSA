@@ -4,3 +4,20 @@ Tree data structure:
        1.In order  - left root right
        2.pre order - root left right
        3.post order - left right root
+       
+         
+         Example tree:
+           
+                      A
+                    /   \                         In order Traversal - B D A G E C H F I
+                   B     \                          
+                    \     \                       Pre order Taversal - A B D C E G F H I
+                      D    \
+                           C                      Post order Traversal - D B G E H I F C A  
+                          /  \
+                         E    F 
+                        /    / \
+                       G    H   I
+                       
+                       
+                  
