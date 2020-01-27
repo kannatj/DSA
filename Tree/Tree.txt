@@ -1,1 +1,6 @@
-
+Tree data structure:
+    Insertion and Deletion on tree
+    Tree traversal
+       1.In order  - left root right
+       2.pre order - root left right
+       3.post order - left right root
