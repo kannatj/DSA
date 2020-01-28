@@ -4,6 +4,12 @@ class BSTNode {
 	BSTNode left,right;
     int data;
     
+	public BSTNode(int data2) {
+		// TODO Auto-generated constructor stub
+		left = null;
+		right = null;
+		data = data2;
+	}
 	public BSTNode getLeft() {
 		return left;
 	}
@@ -84,6 +90,43 @@ class BST{
 		return node;
 	}
 	
+	
+	public void inorder() {
+		inorder(root);
+	}
+	
+	private void inorder(BSTNode node) {
+		if(node != null) {
+			inorder(node.getLeft());
+			System.out.println(node.getData() +" ");
+			inorder(node.getRight());
+		}
+	}
+	
+	public void preorder() {
+		preorder(root);
+	}
+	
+	private void preorder(BSTNode node) {
+		if(node != null) {
+			System.out.println(node.getData() +" ");
+			preorder(node.getLeft());
+			preorder(node.getRight());
+		}
+	}
+	
+	
+	public void postorder() {
+		postorder(root);
+	}
+	
+	private void postorder(BSTNode node) {
+		if(node != null) {
+			System.out.println(node.getData() +" ");
+			postorder(node.getLeft());
+			postorder(node.getRight());
+		}
+	}
 	
 }
 
