@@ -122,9 +122,9 @@ class BST{
 	
 	private void postorder(BSTNode node) {
 		if(node != null) {
-			System.out.println(node.getData() +" ");
 			postorder(node.getLeft());
 			postorder(node.getRight());
+			System.out.println(node.getData() +" ");
 		}
 	}
 	
