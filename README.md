@@ -12,4 +12,5 @@ Data structures and Algorithms
           2. Stack using linked list
        Queue
           1. Queue using linked list 
+          2. Queue using array
       
