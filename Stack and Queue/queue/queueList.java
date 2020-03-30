@@ -39,6 +39,26 @@ public void dequeue() {
 	if(front == null)
 		rear = null;
 }
+	
+public void display() {
+	if(rear == null) {
+		System.out.println("Queue is empty");
+	}
+	else {
+		node temp = front;
+		while(temp!=null) {
+			System.out.print(temp.data);
+			if(temp.next!=null)
+				System.out.print("<--");
+			temp = temp.next;
+		}
+		System.out.println();
+	}
+}
+	
+public void peek() {
+	System.out.println("Front data is"+front.data);
+}	
 
 
 public static void main(String as[]) {
