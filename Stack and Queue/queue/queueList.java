@@ -3,7 +3,7 @@ package queue;
 public class queueList{
 node front, rear;
 
-queue(){
+queueList(){
 	front = rear = null;
 }
 
