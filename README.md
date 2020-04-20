@@ -14,7 +14,7 @@ Data structures and Algorithms
           1. Queue using linked list 
           2. Queue using array
        Tree
-          1. Binary Tree
+          1. [Binary Tree](https://github.com/kannatj/DSA/tree/master/Tree/BinaryTree)
                 .insert
                 .delete particular node
                 .search
