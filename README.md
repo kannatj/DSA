@@ -13,4 +13,16 @@ Data structures and Algorithms
        Queue
           1. Queue using linked list 
           2. Queue using array
+       Tree
+          1. Binary Tree
+                .insert
+                .delete particular node
+                .search
+                .delete all
+                .inorder traversal
+                .preorder traversal
+                .postorder traversal
+                .levelorder traversal
+                
+          2. Binary Search tree
       
