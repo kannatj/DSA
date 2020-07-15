@@ -25,4 +25,9 @@ Data structures and Algorithms
                 .levelorder traversal
                 
           2. Binary Search tree
+          
+       Algorithms:
+          Searching
+              BinarySearch - O(logn)
+              LinearSearch - O(n)
       
