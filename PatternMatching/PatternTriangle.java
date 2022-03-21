@@ -140,7 +140,18 @@ public void printPattern4(int n){
 		}
 	}
 
+	
+/*
 
+Pattern 5
+
+* * * * * 
+  * * * * 
+    * * * 
+      * * 
+        * 
+
+*/
 public void printPattern5(int n){
 	
 	for(int i=0;i<n;i++) {
@@ -161,7 +172,17 @@ public void printPattern5(int n){
 	}
 }
 	
+/*
 
+Pattern 6
+	
+	* 
+      * * 
+    * * * 
+  * * * * 
+* * * * * 
+
+*/
 public void printPattern6(int n){
 	
 	for(int i=0;i<n;i++) {
