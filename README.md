@@ -26,6 +26,9 @@ Data structures and Algorithms
                 
           2. Binary Search tree
           
+         Pattern Matching
+            6 triangle patterns are there
+          
        Algorithms:
           Searching
               BinarySearch - O(logn)
