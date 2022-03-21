@@ -1,4 +1,4 @@
-package tjk.tutort.pattern;
+package tjk.dsa.pattern;
 
 
 /*
